@@ -1,0 +1,17 @@
+
+CREATE DATABASE ORCAMENTOS;
+
+CREATE TABLE `orcamentos` (
+`id` INT( 200 ) AUTO_INCREMENT ,
+`nome` VARCHAR( 60 ) NOT NULL ,
+`perfil` VARCHAR( 60 ) NOT NULL ,
+`endereco` VARCHAR( 40 ) NOT NULL ,
+`bairro` VARCHAR( 20 ) ,
+`telefone` INT( 15 ) ,
+`email` VARCHAR( 30 ) NOT NULL ,
+`servico` VARCHAR( 20 ) NOT NULL ,
+`clm` VARCHAR( 15 ) NOT NULL ,
+`descricao` VARCHAR( 100 ) NOT NULL ,
+`data` VARCHAR( 20 ) NOT NULL ,
+`ip` VARCHAR( 20 ) NOT NULL ,
+);

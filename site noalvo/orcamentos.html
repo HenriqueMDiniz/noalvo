@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>NOALVO TELECOM</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="cods/css/main.css" />
+	</head>
+	<body class="inicio">
+		<div id="div_total">
+
+			<!-- topo -->
+				<div id="div_topo">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">NOALVO</a></h1>
+								
+							</div>
+
+						<!-- menu -->
+							<nav id="nav">
+								<ul>
+									<li><a href="index.html">INÍCIO</a></li>
+									<li>
+										<a href="empresa.html">EMPRESA</a>
+										
+									</li>
+									<li><a href="clientes.html">CLIENTES</a></li>
+									<li><a href="promocoes.html">PROMOÇÕES</a></li>
+									<li class="current"><a href="orcamentos.html">ORÇAMENTOS</a></li>
+								</ul>
+							</nav>
+
+					</header>
+				</div>
+
+			<!-- Banner -->
+				<div id="banner-wrapper" align="center">
+					<div class="container">
+						<div class="roww gtr-200">
+							<div class="empre">
+								<div id="content">
+
+									<h3>PREENCHA PARA RECEBER SEU ORÇAMENTO</h3>
+						<form action="cadastro.php" method="post"> 
+<label for="name">Nome Completo:</label> 
+<input type="text" style="width:500px" name="nome" id="nome" required> 
+
+<label for="perfil">Perfil de Cliente:</label> 
+<input style="width: 500px" list="perfil_cliente" name="perfil" id="perfil" required> 
+<datalist id="perfil_cliente"> 
+<option value="Pessoa Fisica"> 
+<option value="Pessoa Juridica"> 
+<option value="Outros"> 
+</datalist> 
+
+<label for="endereco">Endereço:</label>
+<input type="text" style="width: 500px" name="endereco" id="endereco" required>
+
+<label for="bairro">Bairro :</label>
+<input type="text" style="width: 500px" name="bairro" id="bairro" required>
+
+<label for="telefone">Telefone:</label>
+<input type="text" style="width: 500px" name="telefone" id="telefone" required>
+
+<label for="email">Email:</label>
+<input type="text" style="width: 500px" name="email" id="email" required>
+
+<label for="servico">Serviço:</label>
+<input list="tipo_servico" style="width: 500px" name="servico" id="servico" required> 
+<datalist id="tipo_servico"> 
+<option value="CFTV"> 
+<option value="ALARME"> 
+<option value="AUTOMAÇÃO"> 
+<option value="CONTROLE DE ACESSO"> 
+<option value="INTERFONE / PABX"> 
+<option value="PORTARIA VIRTUAL"> 
+<option value="INFORMATICA"> 
+</datalist> 
+
+<label for="clm">Compra/Locação/Manutenção:</label> 
+<input list="tipo_clm" style="width: 500px" name="clm" id="clm" required> 
+<datalist id="tipo_clm"> 
+<option value="COMPRA"> 
+<option value="LOCAÇÃO"> 
+<option value="MANUTENÇÃO" > 
+</datalist> 
+
+<label for="descricao">Descreva o Serviços Necessário:</label> 
+<textarea style="width: 500px" name="descricao" id="descricao" row="15" cols="22" required></textarea> <br>
+
+
+<input type="submit" value="Enviar" name="enviar"> 
+
+
+</form> <br>
+
+										
+
+								</div>
+							</div>
+							
+						</div>
+					</div>	
+				</div>
+
+			<!-- RODAPE -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>SOBRE NÓS</h3>
+										<ul >
+											<li>Somos uma empresa especializada em soluções tecnológicas para sua empresa ou condomínio</li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>SITE SEGURO</h3>
+										<img src="images/site-seguro-google.png" />
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>MAPA DO SITE</h3>
+										<ul class="style2">
+											<li><a href="inicio.html">INÍCIO</a></li>
+											<li><a href="empresa.html">EMPRESA</a></li>
+											<li><a href="clientes.html">CLIENTES</a></li>
+											<li><a href="promocoes.html">PROMOÇÕES</a></li>
+											<li><a href="orcamento.html">ORÇAMENTO</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Contact -->
+									<section class="widget contact last">
+										<h3>CONTATOS</h3>
+										<ul>
+											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+											
+										</ul>
+										<p>RIO DE JANEIRO<br />
+										JACAREPAGUA<br />
+										(21) 2121-2121</p>
+									</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div id="finall">
+									<ul class="menu">
+										<li>© MARCA REGISTRADA 2021</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="cods/js/jquery.min.js"></script>
+			<script src="cods/js/jquery.dropotron.min.js"></script>
+			<script src="cods/js/browser.min.js"></script>
+			<script src="cods/js/breakpoints.min.js"></script>
+			<script src="cods/js/util.js"></script>
+			<script src="cods/js/main.js"></script>
+
+	</body>
+</html>
